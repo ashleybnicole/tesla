@@ -1,7 +1,7 @@
 .footer-basic {
   padding: 40px 0;
   background-color: #000000;
-  color: #7e7f80;
+  color: #cdcfd0;
   text-align: center;
 }
 
@@ -12,11 +12,13 @@
   font-size: 12px;
   line-height: 1.6;
   margin-bottom: 0;
+  font-weight: 100;
 }
 
 .footer-basic li:not(:last-child) {
   padding-right: 5px;
-  border-right: 1px solid rgba(255,255,255,0.18);
+  border-right: 1px solid rgba(255,255,255,0.4);
+  margin-right: 5px;
 }
 
 .footer-basic ul a {
@@ -68,7 +70,9 @@
 #vertical-line {
   width: 1px;
   height: 200px;
+  background-color: rgba(255,255,255,0.4);
   margin: 0 auto;
-  background-color: rgba(255,255,255,0.2);
+  margin-top: -170px;
+  position: relative;
 }
 
